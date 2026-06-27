@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Send, CheckCircle, AlertCircle, Loader } from 'lucide-react';
-import { supabase } from '../lib/supabase';
 
 interface FormData {
   name: string;
@@ -60,13 +59,26 @@ export default function BookingSection() {
     if (!validate()) return;
 
     setStatus('loading');
-    const { error } = await supabase.from('inquiries').insert([form]);
-
-    if (error) {
+    try {
+      const res = await fetch(
+        `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-inquiry`,
+        {
+          method: 'POST',
+          headers: {
+            Authorization: `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(form),
+        }
+      );
+      if (!res.ok) {
+        setStatus('error');
+      } else {
+        setStatus('success');
+        setForm(initialForm);
+      }
+    } catch {
       setStatus('error');
-    } else {
-      setStatus('success');
-      setForm(initialForm);
     }
   };
 
