@@ -3,20 +3,20 @@ import { ChevronDown, Play } from 'lucide-react';
 
 const slides = [
   {
-    url: 'https://xpkpveufhmmxrzohhkmv.supabase.co/storage/v1/object/public/media/IMG_2350.jpg',
-    alt: 'Romantic wedding couple in golden hour light',
+    url: 'https://xpkpveufhmmxrzohhkmv.supabase.co/storage/v1/object/public/portfolio/goldreddress.jpg',
+    alt: 'goldreddress',
   },
   {
-    url: 'https://xpkpveufhmmxrzohhkmv.supabase.co/storage/v1/object/public/media/IMG_2544.jpg',
-    alt: 'Elegant portrait photography',
+    url: 'https://xpkpveufhmmxrzohhkmv.supabase.co/storage/v1/object/public/portfolio/1780949713823-s2q6s1gau8b.jpg',
+    alt: 'eating',
   },
   {
-    url: 'https://xpkpveufhmmxrzohhkmv.supabase.co/storage/v1/object/public/media/IMG_4108.jpg',
-    alt: 'Wedding ceremony beautiful moment',
+    url: 'https://xpkpveufhmmxrzohhkmv.supabase.co/storage/v1/object/public/portfolio/1780949716648-v7fkvvhblra.jpg',
+    alt: 'princess',
   },
   {
-    url: 'https://xpkpveufhmmxrzohhkmv.supabase.co/storage/v1/object/public/media/IMG_4455.jpg',
-    alt: 'Professional portrait session',
+    url: 'https://xpkpveufhmmxrzohhkmv.supabase.co/storage/v1/object/public/portfolio/prayer.jpg',
+    alt: 'prayer',
   },
 ];
 
