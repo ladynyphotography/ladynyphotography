@@ -22,7 +22,7 @@ const testimonials = [
   {
     name: 'Katrice Cornett',
     role: 'CEO/Founder T.H.S.A. Records, LLC',
-    image: 'https://i.ytimg.com/vi/X7fbcV_TTD0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD3VHVg14tUK4hvKfJnSzhUaOyJ9w',
+    image: 'https://xpkpveufhmmxrzohhkmv.supabase.co/storage/v1/object/public/media/thsa.JPG',
     quote:
       'We are beyond grateful for the incredible work of Lady Ny Photography during our T.H.S.A. Records, LLC Spring/Summer Catalog Release Concert! 📸✨ From the moment she arrived, Lady Ny brought such a warm, professional, and welcoming presence that made everyone feel comfortable and celebrated. She did a phenomenal job capturing not just photos, but the true essence, spirit, energy, and heartfelt moments of the entire event. Every image reflects the joy, passion, worship, excellence, and love that filled the room. Her creativity, knowledge, attention to detail, and ability to engage with everyone made the experience even more special. She has a beautiful eye for storytelling through photography, and it truly shows in her work. If you are looking for a photographer who is professional, friendly, creative, and reasonably priced, I highly recommend Lady Ny Photography. We will definitely be working with her again in the future! Thank you, Lady Ny Photography, for helping us preserve memories that we will treasure for years to come. 💛',
     stars: 5,
